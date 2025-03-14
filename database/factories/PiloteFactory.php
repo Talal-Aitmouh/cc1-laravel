@@ -14,7 +14,7 @@ class PiloteFactory extends Factory
         'MatPil' => strtoupper(fake()->lexify('??????')),
         'NomPrénomPil' => fake()->name(),
         'AdressePil' => fake()->address(),
-        'TelPil' => fake()->numerify('########'), // Génère un numéro de 8 chiffres
+        'TelPil' => fake()->numerify('########'), 
 
     ];
 }
