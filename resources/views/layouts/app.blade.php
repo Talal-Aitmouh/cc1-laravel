@@ -9,7 +9,9 @@
 <body class="bg-gray-50 min-h-screen font-sans ">
     <nav class="bg-white py-5 px-32 text-black shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="/" class="text-2xl font-extrabold tracking-tight">Apex</a>
+            <a href="/" class="text-2xl flex gap-4 font-extrabold tracking-tight">
+            <img src="https://cdn-icons-png.flaticon.com/512/5787/5787874.png" class="w-10 h-10" alt="">    
+            Apex</a>
             <div class="space-x-6">
                 <a href="{{ route('avions.index') }}" class="hover:text-blue-100 transition duration-200 font-medium">Avions</a>
                 <a href="{{ route('pilotes.index') }}" class="hover:text-blue-100 transition duration-200 font-medium">Pilotes</a>
